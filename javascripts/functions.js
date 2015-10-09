@@ -1,9 +1,17 @@
 function btnToBase64_Clicked()
 {
-	alert('to base64');
+	var originContent = getContentFromOriginTextarea();
+	alert('to base64: ' + originContent);
 }
 
 function btnToHex_Clicked()
 {
-	alert('to hex');
+	var originContent = getContentFromOriginTextarea();
+	alert('to hex: ' + originContent);
+}
+
+function getContentFromOriginTextarea()
+{
+	var originContent = document.getElementById("textarea-origin-content").value;
+	return originContent;
 }
