@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="stylesheets/github-dark.css">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   <script src="javascripts/scale.fix.js"></script>
+  <script src="javascripts/functions.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <!--[if lt IE 9]>
@@ -35,8 +36,8 @@
         <h1>How do I start?</h1>
         <p>
           <textarea class="content-textarea" id="textarea-hex-content"></textarea>
-          <button class="button-convert" type="button">To base64</button>
-          <button class="button-convert" type="button">To hex</button>
+          <button id="to-base64" class="button-convert" type="button" onclick="btnToBase64_Clicked()">To base64</button>
+          <button id="to-hex" class="button-convert" type="button" onclick="btnToHex_Clicked()">To hex</button>
         </p>
 
         <p>
