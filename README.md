@@ -3,4 +3,4 @@ An online tool to convert hex strings to base64 strings and vice versa. Hosted w
 
 http://rookev.github.io/hexbase64/
 
-Enjoy!
+Enjoy! :-)
